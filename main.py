@@ -44,4 +44,4 @@ if __name__ == "__main__":
         with open(output, 'w') as f:
             f.write(javaproperties.dumps(substitution))
     else:
-        print(substitution)
+        print(javaproperties.dumps(substitution))
