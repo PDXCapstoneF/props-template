@@ -1,0 +1,4 @@
+com.apple.someprops = value
+com.apple.foo = $foo
+com.apple.biz = $biz
+com.apple.untouched = $$untouched
