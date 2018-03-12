@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     substitution = substitute(props, mapping)
 
-    output = arguments['<output']
+    output = arguments['<output>']
 
     if output is not None:
         with open(output, 'w') as f:
